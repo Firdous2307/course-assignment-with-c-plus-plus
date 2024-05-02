@@ -1,0 +1,5 @@
+The task involves three separate parts:
+
+Add numbers from 1 to 10.
+Find the square root of each of those numbers.
+Solve quadratic functions using the formula method.

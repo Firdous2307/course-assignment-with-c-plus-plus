@@ -1,0 +1,3 @@
+
+To convert a number to degrees in C++, you need to multiply the number by the conversion factor. 
+The conversion factor to convert radians to degrees is 180/𝜋

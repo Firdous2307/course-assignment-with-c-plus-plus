@@ -1,0 +1,12 @@
+You can install OpenCV on your system using package managers;
+```c++
+sudo apt-get update
+sudo apt-get install libopencv-dev
+```c++
+
+
+The command dpkg -l | grep libopencv-dev is used on Ubuntu/Linux systems to list installed packages and filter the output to show only packages that contain "libopencv-dev" in their name. Here's what each part of the command does:
+
+dpkg -l: This command lists all installed packages on the system.
+|: This is a pipe operator that redirects the output of the dpkg -l command to the input of the grep command.
+grep libopencv-dev: This command filters the input it receives and only displays lines that contain the string "libopencv-dev".
