@@ -1,0 +1,9 @@
+Creating a C++ program for sorting medical samples with a robotic arm involves several steps:
+
+Input Acquisition: Interface with sensors to detect the attributes mentioned (color of the can, color of the lid, size of the container, color of the sample).
+
+Decision Making: Based on the acquired attributes, determine the appropriate action for the robotic arm to take.
+
+Robotic Arm Control: Implement control logic to move the robotic arm to the specified location for sorting.
+
+Sorting Algorithm: Design an algorithm to efficiently sort the samples based on their attributes.
