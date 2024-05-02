@@ -3,17 +3,14 @@ Files:
 
 Functions:
 1. int readProximityData()
-   - Description: Simulates reading proximity data from the sensor.
    - Returns: An integer representing the proximity value (0 to 100).
 
 2. void updateDisplay(int proximityValue)
-   - Description: Updates the display with the proximity information.
    - Parameters:
      - proximityValue: An integer representing the proximity value to be displayed.
 
 3. int main()
-   - Description: The main function that orchestrates the program flow.
-   - Steps:
+- Steps:
      - Initializes the random number generator.
      - Enters a loop to continuously read proximity data and update the display.
      - Inside the loop:
@@ -21,16 +18,6 @@ Functions:
        - Updates the display using updateDisplay().
        - Adds a delay before the next iteration.
    - Returns: 0 upon successful completion.
-
-Dependencies:
-- iostream: Standard C++ input/output stream library.
-- cstdlib: Standard C library for miscellaneous utilities (used for rand() and srand() functions).
-- ctime: Standard C time library (used for time() function).
-- unistd.h: POSIX operating system API for sleep() function.
-
-Execution:
-- Compile the program using a C++ compiler (e.g., g++).
-- Run the compiled executable to simulate proximity data display.
 
 Notes:
 - This program is a simple demonstration and does not interface with real hardware.
