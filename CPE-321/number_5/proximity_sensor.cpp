@@ -17,7 +17,6 @@ void updateDisplay(int proximityValue) {
 }
 
 int main() {
-    // Main loop to continuously read proximity data and update the display
     while (true) {
         // Read proximity data
         int proximityValue = readProximityData();
