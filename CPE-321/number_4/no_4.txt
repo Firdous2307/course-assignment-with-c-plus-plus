@@ -1,8 +1,8 @@
 You can install OpenCV on your system using package managers;
-```c++
+``` c++
 sudo apt-get update
 sudo apt-get install libopencv-dev
-```c++
+``` c++
 
 
 The command dpkg -l | grep libopencv-dev is used on Ubuntu/Linux systems to list installed packages and filter the output to show only packages that contain "libopencv-dev" in their name. Here's what each part of the command does:
